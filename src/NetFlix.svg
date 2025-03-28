@@ -1,0 +1,8 @@
+<svg width="300" height="100" viewBox="0 0 300 100">
+    <defs>
+        <path id="curve" d="M10,80 Q150,-20 290,80" fill="transparent" />
+    </defs>
+    <text fill="red" font-size="48" font-family="Arial Black" font-weight="bold">
+        <textPath href="#curve" startOffset="50%" text-anchor="middle">NETFLIX</textPath>
+    </text>
+</svg>

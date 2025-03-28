@@ -1,0 +1,99 @@
+body {
+  background-color: #000;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #141414 !important;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  color: red;
+  cursor: pointer;
+}
+
+.netflix-logo img {
+  width: 5.78rem;
+  height: 1.86rem;
+  display: inline-block;
+  background: none;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  font-size: 14px;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #e50914 !important;
+}
+
+.form-control {
+  width: 10em;
+  height: 2em;
+  background-color: #141414;
+  border: 1px solid #333;
+  color: white;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+  background-color: white;
+  border: #333;
+  box-shadow: none;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.form-control::-webkit-search-cancel-button {
+  display: none;
+}
+
+.btn-outline-success {
+  border-color: black !important;
+  color: #e50914 !important;
+  transition: background 0.3s ease-in-out;
+}
+
+.btn-outline-success:hover {
+  background-color: #e50914 !important;
+  color: white !important;
+}
+
+.icon {
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.icon:hover {
+  color: #e50914;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 20px;
+  }
+  
+  .netflix-logo img {
+      width: 100px;
+  }
+
+  .navbar-nav .nav-link {
+      font-size: 16px;
+  }
+}
