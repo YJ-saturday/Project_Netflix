@@ -26,7 +26,7 @@ const AppLayout = () => {
     <div>
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container fluid>
-          <Navbar.Brand href="#" className="netflix-logo">
+          <Navbar.Brand href="/" className="netflix-logo">
             <img src={NetflixLogo} alt="Netflix Logo" width="200" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
